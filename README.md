@@ -1,5 +1,4 @@
-# validari-Romania
----
+# validăRomânia
 
  Acest repo conține validări pentru diverse componente specific românești ( CNP, numere de telefon, IBAN, numere de înmatriculare auto, ș.a.m.d. )
  
@@ -7,7 +6,6 @@
 
 
 ## Cerințe preliminare
----
 
 * Python >= 3.0
 
@@ -19,7 +17,7 @@
 
 **CNP** -  Codul Numeric Personal constituie numărul de ordine atribuit de Evidența Populației unui individ la naștere. 
 
-Formatul unui CNP este `|S| |AA| |LL| |ZZ| |JJ| |ZZZ| |C|`,  unde fiecare variabilă reprezintă :
+Formatul unui CNP este `|S|AA|LL|ZZ|JJ|ZZZ|C|`,  unde fiecare variabilă reprezintă :
 
  * `S` -- Sexul persoanei (masculin/feminin) :
      *   1/2-cetățeni români născuți între 1 ian 1900 și 31 dec 1999 
